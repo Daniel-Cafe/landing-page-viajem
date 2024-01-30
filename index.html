@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINKS -->
+    <script src="https://kit.fontawesome.com/a0dc33eb96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <title>Landing-Page</title>
+    <link rel="shortcut icon" href="assets/travel_826070.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="interface">
+            <header>
+                <div class="desktop">
+                    <div class="flex">
+                        <h1>DS</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Pacotes</a></li>
+                                <li><a href="#">Promoções</a></li>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Preços</a></li>
+                            </ul>
+                        </nav>
+                        <button><a href="#">Entrar ></a></button>
+                    </div> <!--DESKTOP-->
+                </div> <!--FLEX-->
+                <div class="mobile">
+                    <div class="flex">
+                        <h1>DS</h1>
+                        <i class="fa-solid fa-bars" onclick=" showNav(), showOverlay()"></i>
+                        <nav id="nav-mobile">
+                            <i class="fa-solid fa-xmark" onclick=" closeNav(), closeOverlay()"></i>
+                            <ul>
+                                <li><a href="#">Pacotes</a></li>
+                                <li><a href="#">Promoções</a></li>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Preços</a></li>
+                            </ul>
+                            <div class="nav-btn"><button><a href="#">Entrar ></a></button></div>
+                        </nav>
+                        <div id="overlay"></div>
+                    </div> <!--DESKTOP-->
+                </div> <!--FLEX-->
+        </div><!--MOBILE-->
+        </header>
+        <main>
+            <section class="destaque">
+                <div class="destaque-txt">
+                    <h1>Descobrindo novas culturas <br> e paisagens deslumbrantes.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ab perferendis distinctio
+                        commodi ipsam, nam, iste blanditiis ipsa voluptas omnis autem temporibus, quis nisi! Itaque quo
+                        reprehenderit dolorum nulla voluptatum.
+                    </p>
+                    <div class="main-btn">
+                        <button><a href="#">Viaje Agora</a></button>
+                        <a href="#">Agende sua viajem</a>
+                    </div>
+                </div>
+            </section> <!--DESTAQUE-->
+        </main>
+
+        <footer>
+            <a target="_blank"
+                href="https://br.freepik.com/fotos-gratis/femininos-turistas-na-mao-tem-um-mapa-de-viagem-feliz_3953424.htm#query=mulher%20viagem&position=13&from_view=search&track=ais&uuid=f9e4efc5-f5d6-4dcb-8037-4bfa2e5b8b88">Imagem
+                de jcomp Frepik</a>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>
